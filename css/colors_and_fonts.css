@@ -1,0 +1,85 @@
+body {
+    font-family: Optima, sans-serif;
+    background-color: silver;
+}
+a:link {
+    color: rgb(34, 230, 230);
+}
+a:visited {
+    color: rgb(112, 201, 10);
+}
+header {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 255, 200);
+}
+header h1 {
+    color: #FFFF00;
+    font-size: 250%;
+}
+header h2 {
+    font-weight: normal;
+    font-style: italic;
+}
+#sitenav {
+    color: white;
+    background-color: rgb(255, 255, 255);
+}
+#sitenav ol {
+    font-size: 90%;
+    text-align: center;
+}
+#sitenav li {
+    border-left: 1px solid #DD0;
+}
+#sitenav li a {
+    color: white;
+}
+#sitenav li a:link, #sitenav li a:visited {
+    color: white; 
+    text-decoration: none;
+}
+#sitenav li a:hover {
+    color: #DDDD00;
+}
+#main {
+    background-color: rgb(149, 216, 216);
+}
+.content {
+    background-color: rgb(23, 120, 211);
+}
+.content p {
+    font-size: 90%;
+    line-height: 1.4;
+}
+#sidebar h3 {
+    font-size: 100%;
+    color: white;
+    font-weight: normal;
+    background-color: rgb(230, 119, 230);
+}
+#sidebar ol {
+    background-color: white; 
+    border: 2px solid rgb(30, 9, 151);
+    border-top: 0;
+}
+#sidebar li {
+    font-size: 85%;
+}
+#sidebar li a:link, #sidebar li a:visited {
+    text-decoration: none;
+    color: rgb(21, 141, 141);
+}
+#sidebar li a:hover {
+    color: rgb(173, 40, 40);
+}
+footer {
+    background-color: rgb(22, 177, 92); 
+    color: white;
+}
+footer p {
+    font-size: 85%;
+}
+footer p a:link, footer p a:visited {
+    color: #DDDD00;
+}
